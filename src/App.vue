@@ -1,14 +1,14 @@
 <template>
   <div id="app">
     <v-app>
-    <v-btn @click="toggle">Toggle</v-btn>
+      <v-btn @click="toggle">Toggle</v-btn>
 
-    <v-progress-circular
-      v-if="isVisibleProgress"
-      indeterminate
-      color="green">
-    </v-progress-circular>
-  </v-app>
+      <v-progress-circular
+        v-if="isVisibleProgress"
+        indeterminate
+        color="green">
+      </v-progress-circular>
+    </v-app>
   </div>
 </template>
 
